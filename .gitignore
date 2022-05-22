@@ -1,0 +1,41 @@
+# auto-generated files
+.cache/
+.coverage/
+.tmp/
+.web/
+*.tsbuildinfo
+.vscode/
+.storybook_html/
+.turbo
+.yalc
+yalc.lock
+coverage/
+lib
+node_modules
+stats.json
+oclif.manifest.json
+testing.json
+benchmarks/~$*
+benchmarks/logs/*.log
+benchmarks/Lerna-*
+
+# common build directories
+packages/*/dist
+packages/*/es
+packages/*/lib
+
+# typedoc generated files
+scripts/typedoc/config/typedoc-*
+scripts/typedoc/run-typedoc.sh
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+*.iml
+yarn-error.log
+/lerna-debug.log
+*.orig
+
+# For the `.graphqlrc.json`.
+schema.graphql
